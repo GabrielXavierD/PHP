@@ -1,0 +1,27 @@
+body{
+    min-width: 1000px;
+    min-height: 1000px;
+    background-color: rgb(139, 133, 133);
+    
+}
+.bkg::before{
+    bottom: 0px;
+    height: 9000px;
+    background-image: url(nebula.jpg);
+    filter: blur(10px);
+    -webkit-filter: blur(4px);  
+    z-index: 20px;
+
+}
+
+.login{
+    padding-left: 10px ;
+    width: 190px;
+    border-radius: 10px;
+    z-index: 9999px;
+    position: fixed;
+
+}
+button:hover{
+   transform: scale(100px);
+}
